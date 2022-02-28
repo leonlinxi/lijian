@@ -4,19 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>李健</title>
     <style>
         img {
             max-width: 100%;
         }
+
+        .foot {
+            height: 700px;
+        }
     </style>
 </head>
 
 <body>
-    <h1>李健</h1>
+    <nav id="top">
+        <ol>
+            <li><a href="#lj">个人简洁</a></li>
+            <li><a href="#events">重要事件</a></li>
+            <li><a href="#awards">主要荣誉</a></li>
+            <li><a href="#words">主要作品</a></li>
+            <li><a href="#pictures">生活照</a></li>
+            <li><a href="#jm">综艺节目</a></li>
+        </ol>
+    </nav>
+    <h1 id="lj">李健</h1>
     <p>1974年出生于哈尔滨，父亲李久良是黑龙江省京剧院武生。</p>
-    <h2>重要事件</h2>
+    <h2 id="events">重要事件</h2>
     <ul>
         <li>1998年从清华大学毕业随后进入了国家广电总局工作，任网络工程师。1999年参与唱片合辑《第一直觉》的录制。2000年李健辞去广电总局的工作进行音乐创作。</li>
         <li>2015年6月8日，荣膺国家海洋局海洋公益形象大使。</li>
@@ -26,7 +41,7 @@
         <li>2020年担任《2020中国好声音》导师，再度成为冠军导师，两战两胜，是节目开播九年以来第一人。</li>
         <li>2021年6月19日发行第七张个人原创专辑《无时无刻》。</li>
     </ul>
-    <h2>主要荣誉</h2>
+    <h2 id="awards">主要荣誉</h2>
     <ul>
         <li>2017年 04-15 歌手2017年度第四名</li>
         <li>2016年 04-03 全球流行音乐年度盛典 －获得“年度最佳专辑”、“年度最佳制作人”、“年度二十大金曲”－美若黎明</li>
@@ -37,7 +52,7 @@
         <li>2011年 12-31 2012央视跨年元旦晚会</li>
         <li>2010年 12-04 第8届东南劲爆音乐榜颁奖典礼-最佳作曲人、内地最佳唱作歌手、劲爆十大金曲《传奇》</li>
     </ul>
-    <h2>主要作品</h2>
+    <h2 id="words">主要作品</h2>
     <table>
         <thead>
             <tr>
@@ -151,11 +166,11 @@
 
         </tbody>
     </table>
-    <h2>生活照</h2>
-    <div><img src="./images/1.jpg" alt="图一" width="400px"></div>
-    <div><img src="./images/2.jpg" alt="图二" width="400px"></div>
-    <div><img src="./images/3.jpg" alt="图三" width="400px"></div>
-    <h2>综艺节目</h2>
+    <h2 id="pictures">生活照</h2>
+    <div><a href="./images/1.jpg" target="_blank"><img src="./images/1.jpg" alt="图一" width="400px"></a></div>
+    <div><a href="./images/2.jpg" target="_blank"><img src="./images/2.jpg" alt="图二" width="400px"></a></div>
+    <div><a href="./images/2.jpg" target="_blank"><img src="./images/3.jpg" alt="图三" width="400px"></a></div>
+    <h2 id="jm">综艺节目</h2>
     <ul>
         <li>2013年: 中央电视《开讲啦》</li>
         <li>2014年: 腾讯直播《中国正在听》</li>
@@ -172,6 +187,8 @@
         <li>2020年：东方卫视《我们的歌_(第二季)》榜样歌手</li>
         <li>2021年：东方卫视《一路唱响》</li>
     </ul>
+    <a href="#top">点击回到顶部</a>
+    <div class="foot"></div>
 </body>
 
 </html>
